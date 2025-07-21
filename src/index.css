@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-josefin: Josefin Sans;
+  --font-roboto: Roboto;
+
+  --color-brown: #53423e;
+  --color-lightbrown: #645550;
+  --color-darkbrown: #2c2523;
+  --color-black: #1e1917;
+  --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
+  --color-lightcyan: #88e5f0;
+  --color-darkcyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-lightorange: #fac27b;
+  --color-darkorange: #d28422;
+  --color-grey: #626965;
+  --color-lightgrey: #978580;
+  --color-darkgrey: #3f4441;
+  --shadow-cyan: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+  --shadow-orangeMediumShadow: 10px 10px 200px 150px rgba(240, 169, 79, 0.5);
+
+  --breakpoint-sm: 350px; 
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+body {
+  @apply bg-darkbrown;
+}
