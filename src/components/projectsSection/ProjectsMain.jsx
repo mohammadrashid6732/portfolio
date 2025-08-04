@@ -16,7 +16,7 @@ const projects = [
     year: "mar2025",
     align: "left",
     image: "../../../public/images/website-img-2.webp",
-    link: "#",
+    link: "https://github.com/mohammadrashid6732/BotoCar",
   },
   {
     name: "Divar",
