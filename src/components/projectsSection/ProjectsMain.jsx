@@ -5,32 +5,32 @@ import { fadeIn } from "../../farmerMotion/variants";
 
 const projects = [
   {
-    name: "Vactions of africa",
-    year: "mar2022",
+    name: "ChatGram",
+    year: "mar2020",
     align: "right",
     image: "../../../public/images/website-img-1.jpg",
+    link: "https://github.com/mohammadrashid6732/chatgram",
+  },
+  {
+    name: "CarShop",
+    year: "mar2025",
+    align: "left",
+    image: "../../../public/images/website-img-2.webp",
     link: "#",
   },
   {
-    name: "Vactions of africa",
+    name: "Divar",
+    year: "mar2022",
+    align: "right",
+    image: "../../../public/images/website-img-3.jpg",
+    link: "https://github.com/mohammadrashid6732/rjs-divar-files",
+  },
+  {
+    name: "Crypto App",
     year: "mar2022",
     align: "left",
     image: "../../../public/images/website-img-1.jpg",
-    link: "#",
-  },
-  {
-    name: "Vactions of africa",
-    year: "mar2022",
-    align: "right",
-    image: "../../../public/images/website-img-1.jpg",
-    link: "#",
-  },
-  {
-    name: "Vactions of africa",
-    year: "mar2022",
-    align: "left",
-    image: "../../../public/images/website-img-1.jpg",
-    link: "#",
+    link: "https://github.com/mohammadrashid6732/rjs-crypto-app-files",
   },
 ];
 
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={item.year}
               align={item.align}
               image={item.image}
+              link={item.link}
             />
           );
         })}
