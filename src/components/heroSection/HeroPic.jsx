@@ -12,7 +12,7 @@ function HeroPic() {
       className="h-full flex items-center justify-center"
     >
       <img
-        src="/images/1.png"
+        src="/images/mohammdrashid.png"
         alt="mohammd"
         className="max-w-[300px] w-full rounded-full object-cover "
       />
